@@ -18,6 +18,11 @@ body {
   font-size: var(--font-size);
 }
 
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 button {
   cursor: pointer;
 }
