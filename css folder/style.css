@@ -1,18 +1,18 @@
 :root {
-  --background-color: white;
+  --primary-background-color: white;
   --secondary-background-color: #4e47ff;
-  --fourth-background-color: black;
-  --text-color: black;
-  --second-text-color: #8987a1;
-  --third-text-color: white;
+  --tertiary-background-color: black;
+  --primary-text-color: black;
+  --secondary-text-color: #8987a1;
+  --tertiary-text-color: white;
   --font-family: "Raleway", serif;
   --font-weight: 700;
   --font-size: 16px;
 }
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
   font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-size: var(--font-size);
@@ -34,7 +34,7 @@ button {
 
 .logo .blue-btn {
   background-color: var(--secondary-background-color);
-  color: var(--third-text-color);
+  color: var(--tertiary-text-color);
   width: 132px;
   border-radius: 10px;
   height: 48px;
@@ -42,9 +42,9 @@ button {
 }
 
 .logo .white-btn {
-  color: var(--second-text-color);
+  color: var(--secondary-text-color);
   border-style: none;
-  background-color: var(--background-color);
+  background-color: var(--primary-background-color);
 }
 
 .container-welcome {
@@ -61,8 +61,8 @@ button {
 }
 
 .buttons .btn-hello {
-  background-color: var(--fourth-background-color);
-  color: var(--third-text-color);
+  background-color: var(--tertiary-background-color);
+  color: var(--tertiary-text-color);
   width: 211px;
   height: 60px;
   margin-right: 200px;
@@ -71,8 +71,8 @@ button {
 }
 
 .buttons .btn-goodbye {
-  background-color: var(--fourth-background-color);
-  color: var(--third-text-color);
+  background-color: var(--tertiary-background-color);
+  color: var(--tertiary-text-color);
   width: 211px;
   height: 60px;
   border-radius: 10px;
